@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap');
+
+h1,
+p{
+    font-family: Inter;
+    line-height: 1.1;
+
+}
+
+h1{
+    font-size: 48px
+}
+
+p{
+    font-weight: 500;
+    letter-spacing: -.01rem;
+}
+.hero-container{
+    display:flex;
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 100px;
+}
+.hero-left {
+    border-radius: 100%;
+    max-width: 250px;
+    overflow: hidden;
+    margin-right: 20px;
+
+  }
+.hero-left img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: .1px solid black;
+}
+  .hero-right {
+    padding: 1rem 0 0;
+    position: flex;
+    width: 100%;
+    font-size: 21px;
+    margin-left: 30px;
+  }
+
+  .hero-right h1{
+    text-align: center;
+  }
+
+  .hero-right p{
+    text-align: justify;
+  }
+  
+  /* Example styles for the profile picture */
+  .hero-left img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height:auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+  }
