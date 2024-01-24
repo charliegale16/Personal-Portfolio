@@ -1,6 +1,7 @@
 import './App.css';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
+import Header from './components/Header';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <div className='Hero'>
       <Hero />
       </div>
-
+      <div className='Header'>
+      <Header />
+      </div>
 
 
     </div>
