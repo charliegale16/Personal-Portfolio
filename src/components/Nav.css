@@ -1,7 +1,7 @@
 .navigation {
     max-width: 700px;
     margin: 0 auto;
-    position: sticky;
+    position: -webkit-sticky;
     margin-top: 20px;
 }
   
