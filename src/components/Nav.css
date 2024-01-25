@@ -11,18 +11,17 @@
     display: flex; /* Use flexbox to display items in a row */
     list-style: none; /* Remove default list styles */
     padding: 0; /* Remove default padding */
-    margin: 0;
     flex-direction: row;
   }
   
   .nav-item-left {
-    margin-right: 15px; /* Add some spacing between the buttons */
+    margin-right: 20px; /* Add some spacing between the buttons */
   }
   button.theme-toggle{
     margin-right: 10px;
   }
   .nav-item-right {
-    margin-right: 15px;
+    margin-right: 20px;
   }
 
 button{
@@ -35,19 +34,20 @@ button{
     border-radius: 10px;
     border: 1.9px solid #e6e6e6;
     transition: transform 0.2s ease-in-out;
+    background-color: #fcfafa;
     white-space: nowrap;
     padding: 8px 12px;
   }
 
  button:hover{
-    background: #eee;
-    border-color: #bbb;
-    color: #1f1f1f;
+    background-color: #ecebeb;
+    border-color: #a0a0a0;
+    color: #070707;
   }
 
 
   /* Media query for mobile devices */
-@media (max-width: 700px) {
+@media (max-width: 728px) {
 
     .nav-items,
     .nav-items2 {

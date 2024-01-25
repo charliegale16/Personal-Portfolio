@@ -1,3 +1,46 @@
 .contact-container h1{
     font-size: 2rem;
 }
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.contact-description {
+    font-weight: 500;
+    letter-spacing: -.01rem;
+    word-spacing: 2px;
+    font-family: Inter;
+    line-height: 1.1;
+    font-size: 1.3rem;
+    align-self: center;
+    margin-top: -25px;
+}
+
+.contact-socials {
+    display: flex;
+    
+}
+
+.contact-socials:hover {
+    cursor: pointer;
+    
+}
+
+.contact-header{
+align-self: center;
+}
+
+.contact-socials a{
+    margin-right: 30px;
+    filter: brightness(100%);
+}
+
+.contact-socials-container{
+    align-self: center;
+}
