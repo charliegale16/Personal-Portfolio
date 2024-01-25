@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Header from './components/Header';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
       <div className='Projects'>
       <Projects />
       </div>
-
+      <div className='Contact'>
+      <Contact />
+      </div>
 
     </div>
   );
