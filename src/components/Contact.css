@@ -24,23 +24,43 @@
 
 .contact-socials {
     display: flex;
+    gap: 30px;
+    
     
 }
 
-.contact-socials:hover {
-    cursor: pointer;
-    
-}
 
 .contact-header{
 align-self: center;
 }
 
 .contact-socials a{
-    margin-right: 30px;
-    filter: brightness(100%);
+    filter: brightness(00%);
+}
+.contact-socials img{
+    filter: brightness(00%);
+}
+
+.contact-socials a:hover{
+    filter: brightness(00%);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.05);
+
+}
+
+.contact-socials img:hover{
+    filter: brightness(0%);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.05);
 }
 
 .contact-socials-container{
     align-self: center;
+}
+
+.icon{
+height: 50px;
+width: 50px;
 }

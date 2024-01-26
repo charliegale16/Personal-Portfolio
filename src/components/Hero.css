@@ -3,9 +3,10 @@
 
 h1,
 h2,
-p{
+i{
     font-family: Inter;
     line-height: 1.1;
+    color: var(--text-primary);
 
 }
 
@@ -14,9 +15,12 @@ h1{
 }
 
 p{
+    font-family: Inter;
+    line-height: 1.1;
     font-weight: 500;
     letter-spacing: -.01rem;
     word-spacing: 2px;
+    color: var(--text-secondary);
 }
 .hero-container{
     display:flex;

@@ -1,4 +1,22 @@
-.App {
+#app {
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  /* Other styles for your app container */
+}
+.app-container {
   text-align: center;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+  background: var(--background-color);
 }
 
+::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:#ddd;
+  border-radius: 2px;
+}

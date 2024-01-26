@@ -47,6 +47,9 @@
 .header-sub-icons3 img
 {
     margin-right: 45px;
+    image-rendering: pixelated;
+
+    
 }
 
 .header-sub-icons img:hover,

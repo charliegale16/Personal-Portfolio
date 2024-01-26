@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Nav.css";
-import { BrowserRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import house from '../assets/icons8-home-50.png';
 import bino from '../assets/icons8-binoculars-50.png';
 import computer from '../assets/icons8-home-office-50.png';
 import linkedin from '../assets/icons8-linkedin-50.png';
 import github from '../assets/icons8-github-50.png';
+import sun from '../assets/icons8-sun-96.png';
+import moon from '../assets/icons8-new-moon-96.png';
+
 
 const mainNavItems = [
     { url: '/', icon: house,  label: 'Home' },
@@ -18,11 +21,15 @@ const mainNavItems = [
     { url: 'https://www.linkedin.com/in/charlesgale1', icon: linkedin, label: 'LinkedIn' }
   ]
 
-  const Nav = () => {
+  const Nav = ({theme, toggleTheme}) => {
+
+  
+
+
     return (
       <section className="navigation">
         <div className="container">
-          <nav>
+        <nav className={`app ${theme === 'dark' ? 'app-light' : 'app-dark'}`}>
               <div className="nav-items"> {/* Use a ul to contain the buttons */}
                 {mainNavItems.map((item) => (
                   <div className="nav-item-left" key={item.url}>
@@ -57,8 +64,16 @@ const mainNavItems = [
             </div>
             
           ))}
-                    <button className="theme-toggle">
-          🌙
+                    <button className="theme-toggle" onClick={toggleTheme}>
+                    {theme === 'light' ? (
+        <>
+          <img src={sun} alt="Sun" className="mr-2" />
+        </>
+      ) : (
+        <>
+          <img src={moon} alt="Moon" className="mr-2" />
+        </>
+      )}
           </button>
           </div>
           </nav>

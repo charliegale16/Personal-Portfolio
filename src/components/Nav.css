@@ -1,8 +1,12 @@
+
+
 .navigation {
     max-width: 700px;
     margin: 0 auto;
-    position: -webkit-sticky;
+    position: flex;
     margin-top: 20px;
+    z-index: 3; 
+    
 }
   
   .nav-items,
@@ -12,16 +16,11 @@
     list-style: none; /* Remove default list styles */
     padding: 0; /* Remove default padding */
     flex-direction: row;
+    gap: 20px;
   }
   
-  .nav-item-left {
-    margin-right: 20px; /* Add some spacing between the buttons */
-  }
   button.theme-toggle{
-    margin-right: 10px;
-  }
-  .nav-item-right {
-    margin-right: 20px;
+    margin-right: 0px;
   }
 
 button{
@@ -29,20 +28,20 @@ button{
     cursor: pointer;
     font-size: 1.1rem;
     font-weight: 500;
-    color: #252525;
+    color: var(--text-buttons);
     padding: 0.3rem 0.35rem;
     border-radius: 10px;
-    border: 1.9px solid #e6e6e6;
+    border: 1px solid var(--button-border);
     transition: transform 0.2s ease-in-out;
-    background-color: #fcfafa;
+    background-color: var(--button-background);
     white-space: nowrap;
     padding: 8px 12px;
   }
 
  button:hover{
-    background-color: #ecebeb;
-    border-color: #a0a0a0;
-    color: #070707;
+    background-color: var(--button-hover);
+    border-color: var(--button-border-hover);
+    color: var(--text-primary);
   }
 
 
@@ -67,10 +66,22 @@ button{
       margin-right: 5px;
     }
   }
+  .nav-items .theme-toggle {
+    border-radius: 50%;
+    padding: 0;
+    width: 40px; /* Set the width and height to make the button square */
+    height: 40px;
+    cursor: pointer; /* Add a cursor to indicate the button is clickable */
+  }
 
+  .nav-items .theme-toggle img{
+    min-width: 38px;
+    min-height: 38px;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin-top: -3px;
 
-  .theme-toggle {
-    border-radius: 50%; /* Make it a circle */
   }
   .nav-items img{
     min-height: 20px;

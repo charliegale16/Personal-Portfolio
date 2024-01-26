@@ -34,8 +34,7 @@
     margin-right: 30px;
     text-align: left;
     border-radius: 15px;
-    border: 2px solid rgb(235, 231, 231);
-    box-shadow: 2px 2px 8px 2px #fffefe;
+    border: 2px solid var(--project-border);
     width: 700px;
     margin-top: 20px;
     
@@ -93,15 +92,15 @@ i {
 .projects-card-button2 button,
 .projects-card-button3 button{
     margin-right: 10px;
-    background-color: white;
+    background-color: var(--button-background);
 }
 
 .projects-card-button1 button:hover,
 .projects-card-button2 button:hover,
 .projects-card-button3 button:hover{
-    background-color: #ecebeb;
-    border-color: #a0a0a0;
-    color: #070707;
+    background-color: var(--button-hover);
+    border-color: var(--button-border-hover);
+    color: var(--text-primary);
 }
 
 .projects-card img{
@@ -116,7 +115,7 @@ i {
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
     transform: scale(1.05);
-    background-color:#f5f5f5;
+    background-color:var(--project-hover);
 }
 
 .projects-card-button3 .live{
