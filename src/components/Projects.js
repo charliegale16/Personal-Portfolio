@@ -32,7 +32,7 @@ const Projects = () => {
             </div>
             <div className='projects-card-container'>
                 {projectsItems.map((item) => (
-                <div className='projects-card'>
+                <div className='projects-card' key={item}>
                     <div className='projects-card-left'>
                         <h2>{item.name}</h2>
                         <i>{item.date}</i>

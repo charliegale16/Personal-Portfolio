@@ -1,9 +1,14 @@
 import React from 'react'
 import '../components/Nav.css';
+import Aboutsection from '../components/Aboutsection';
 
 const About = () => {
   return (
-    <div className='about-container'><h1>About</h1></div>
+    <div> 
+
+    <Aboutsection />
+
+    </div>
   )
 }
 
