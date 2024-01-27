@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import house from '../assets/icons8-home-50.png';
 import bino from '../assets/icons8-binoculars-50.png';
 import computer from '../assets/icons8-home-office-50.png';
-import linkedin from '../assets/icons8-linkedin-50.png';
+import linkedin from '../assets/icons8-linkedin-48.png';
 import github from '../assets/icons8-github-50.png';
 import sun from '../assets/icons8-sun-96.png';
 import moon from '../assets/icons8-new-moon-96.png';

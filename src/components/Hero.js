@@ -10,13 +10,14 @@ const handleDownload = () => {
   link.click();
   document.body.removeChild(link);
 };
+// https://i.imgur.com/vF7i7CB.png dark mode
 
-
-const Hero = () => {
+const Hero = ({theme, transitioning}) => {
   return (
 <div className='hero-container'>
   <div className='hero-left'>
-    <img src='https://i.imgur.com/5rlpyyZ.jpg' alt='Profile'></img>
+    
+    <img src={theme === 'dark' ? 'https://i.imgur.com/vF7i7CB.png' : 'https://i.imgur.com/5rlpyyZ.jpg'} alt='Profile'></img>
   </div>
   <div className='hero-right'>
     <h1>Charlie Gale</h1>

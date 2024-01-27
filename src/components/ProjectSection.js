@@ -1,9 +1,9 @@
 import React from 'react'
-import './Projects.css';
+import "./ProjectSection.css"
 import workout from "../assets/workout_generator1.png";
 import cloudmap from '../assets/cloudmap_screenshot.JPG';
 import spaceinvaders from '../assets/space_invaders_screenshot.PNG'
-import { Link } from 'react-router-dom';
+
 
 const projectsItems = [
     {name:"Workout Generator", icon: workout, desc:'Workout Generator is a web application that generates random workouts based on user input.', id:"projects-card-button1", date:" Made in 2023", github:"https://github.com/charliegale16/Workout-Generator",live:"https://workout-generator-charliegale.netlify.app"},
@@ -13,22 +13,13 @@ const projectsItems = [
 
   ]
 
-
-
-
-const Projects = () => {
+const ProjectSection = () => {
   return (
     <section id='projects'>
-        <div className='projects-container'>
+        <div className='projectssection-container'>
             <div className='projects-header'>
                 <h1>Projects</h1>
-                <Link to='/projects'>
-                <button>View All</button>
-                </Link>
                 
-            </div>
-            <div className='projects-description'>
-            <p>Check out the projects i've developed. They're a great showcase of my skills and passion for building new things! </p>
             </div>
             <div className='projects-card-container'>
                 {projectsItems.map((item) => (
@@ -57,5 +48,7 @@ const Projects = () => {
     </section>
   )
 }
+  
 
-export default Projects
+
+export default ProjectSection

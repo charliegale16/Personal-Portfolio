@@ -10,6 +10,7 @@ import { Route,Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import Footer from './components/Footer';
 
 const App = () => {
   const [theme, setTheme] = useState('light');
@@ -21,18 +22,30 @@ const App = () => {
   useEffect(() => {
     document.body.className = theme === 'dark' ? 'app-light' : 'app-dark';
   }, [theme]);
+
+  useEffect(() => {
+    const root = document.documentElement;
+    if (theme === 'dark') {
+      root.classList.add('dark-theme');
+    } else {
+      root.classList.remove('dark-theme');
+    }
+  }, [theme]);
+  
+
   return (
-      
+           
 <div className={`app ${theme === 'dark' ? 'app-light' : 'app-dark'}`}>
     <Nav theme={theme} toggleTheme={toggleTheme} />
     <div>
       
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home theme={theme}/>} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Project />} />
         </Routes>
     </div>
+    <Footer />
     </div>
   );
 }

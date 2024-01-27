@@ -59,11 +59,11 @@ p{
     margin-top: -12.5px;
   }
   
-  /* Example styles for the profile picture */
+
   .hero-left img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-    height:auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Make the image circular */
+    max-width: 100%; 
+    height:auto; 
+    border-radius: 50%; 
   }
 
   .hero-right-3-under button{
@@ -77,3 +77,4 @@ p{
    float: left;
     
   }
+

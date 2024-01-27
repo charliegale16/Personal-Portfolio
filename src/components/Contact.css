@@ -25,7 +25,8 @@
 .contact-socials {
     display: flex;
     gap: 30px;
-    
+    align-items: center;
+    filter: saturate(80%);
     
 }
 
@@ -34,23 +35,17 @@
 align-self: center;
 }
 
-.contact-socials a{
-    filter: brightness(00%);
-}
-.contact-socials img{
-    filter: brightness(00%);
-}
+
 
 .contact-socials a:hover{
-    filter: brightness(00%);
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
     transform: scale(1.05);
+    filter: hue-rotate(190deg);
 
 }
 
 .contact-socials img:hover{
-    filter: brightness(0%);
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
     transform: scale(1.05);
@@ -60,7 +55,38 @@ align-self: center;
     align-self: center;
 }
 
-.icon{
-height: 50px;
-width: 50px;
+#linkedin:hover{
+    filter:hue-rotate(340deg)
+}
+
+#github:hover {
+    filter:hue-rotate(350deg)
+}
+
+#discord:hover{
+    filter:hue-rotate(0deg)
+}
+
+#email:hover{
+    filter:hue-rotate(10deg)
+}
+
+#resume:hover{
+    filter:hue-rotate(20deg)
+}
+.contact-socials button{
+    height: 100px;
+    margin:0;
+}
+
+.contact-socials img{
+    margin:0;
+    margin-top:-5px;
+}
+
+.contact-socials p{
+    top:10px;
+    margin:0px;
+    font-weight: 200;
+    font-size: 15px;
 }

@@ -1,8 +1,11 @@
 import React from 'react'
 import "./Contact.css";
 import email from '../assets/icons8-email-100.png';
-import resume from '../assets/icons8-resume-80.png';
+import resume from '../assets/icons8-resume-64.png';
 import resdown from '../assets/resume2024.pdf';
+import github from '../assets/icons8-github-64.png'
+import linkedin from '../assets/icons8-linkedin-100.png';
+import discord from '../assets/icons8-discord-100.png';
 
 
 function sendEmail() {
@@ -32,11 +35,11 @@ const Contact = () => {
             </div>
             <div className='contact-socials-container'>
               <div className='contact-socials'>
-              <a href="https://www.github.com/charliegale16" target="_blank" rel="noreferrer"> <picture> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" style={{color:'#038cfc'}} alt="github" width="50" height="50" /> </picture> </a>
-              <a href="https://www.linkedin.com/in/charlesgale1" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" alt="linkedin" width="50" height="50" /> </picture> </a>
-                <a href="https://discord.com/users/chawwwa" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="undefined" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" alt="discord" width="50" height="50" /> </picture> </a>
-                  <img className='icon' id="icon" src={email} alt="Icon" onClick={sendEmail}></img>
-                  <img className='icon' id="icon" src={resume} alt="Icon" onClick={handleDownload}></img>
+              <a href="https://www.github.com/charliegale16" target="_blank" rel="noreferrer"> <button><img src={github} id="github" alt="github" width="55" height="55" /><p>Github</p></button></a>
+              <a href="https://www.linkedin.com/in/charlesgale1" target="_blank" rel="noreferrer"><button> <img src={linkedin} id="linkedin" alt="linkedin" width="55" height="55" /><p>LinkedIn</p></button></a>
+              <a href="https://discord.com/users/chawwwa" target="_blank" rel="noreferrer"><button><img src={discord} id="discord" alt="discord" width="55" height="55" /><p>Discord</p></button></a> 
+              <a><button onClick={sendEmail}><img className='icon' id="email" src={email} alt="email" width="55" height="55" ></img><p>Email</p></button></a>
+              <a ><button onClick={handleDownload}> <img className='icon' id="resume" src={resume} alt="resume" width="55" height="55"></img><p>Resume</p></button></a> 
               </div>
             </div>  
         </div>

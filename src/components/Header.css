@@ -29,9 +29,9 @@
 .header-sub-1 h2,
 .header-sub-2 h2,
 .header-sub-3 h2 {
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    text-align: left; /* Align the text to the left*/
+    margin: 0; 
+    padding: 0; 
+    text-align: left; 
  }
 
 .header-sub-icons,
@@ -47,7 +47,7 @@
 .header-sub-icons3 img
 {
     margin-right: 45px;
-    image-rendering: pixelated;
+    
 
     
 }
@@ -59,3 +59,12 @@ cursor: pointer;
 transition: transform 0.2s ease-in-out;
 transform: scale(1.2);
 }
+
+.icons {
+    filter: invert(1); 
+  }
+  
+  .dark-theme .icons {
+    filter: none;
+    filter: brightness(200%); 
+  }
