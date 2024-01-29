@@ -12,7 +12,12 @@ const handleDownload = () => {
 };
 // https://i.imgur.com/vF7i7CB.png dark mode
 
-const Hero = ({theme, transitioning}) => {
+const Hero = ({theme, scrollToContact}) => {
+
+  const handleConnectWithMeClick = () => {
+    scrollToContact(); // Call the scrollToContact function passed from the Home component
+  };
+
   return (
 <div className='hero-container'>
   <div className='hero-left'>
@@ -24,7 +29,7 @@ const Hero = ({theme, transitioning}) => {
     <p>Hey there 👋, I'm Charlie, a software engineer passionate about creating new things and bringing ideas to life with programming.</p>
     <div className='hero-right-3-under'>
         <button onClick={handleDownload}>Download CV</button>
-        <button>Connect with me ⚡️</button>
+        <button onClick={handleConnectWithMeClick}>Connect with me ⚡️</button>
     </div>
   </div>
 </div>
