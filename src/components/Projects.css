@@ -119,6 +119,11 @@ i {
     background-color:var(--project-hover);
 }
 
+.projects-card-button2 .live{
+    visibility: hidden;
+    display: none;
+}
+
 .projects-card-button3 .live{
     visibility: hidden;
     display: none;

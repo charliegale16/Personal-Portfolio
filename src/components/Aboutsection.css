@@ -28,3 +28,9 @@
     margin-top: 10px;
     
 }
+
+.about-email-section{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
