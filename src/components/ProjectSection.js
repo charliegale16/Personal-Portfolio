@@ -6,9 +6,9 @@ import spaceinvaders from '../assets/space_invaders_screenshot.PNG'
 
 
 const projectsItems = [
-    {name:"Workout Generator", icon: workout, desc:'Workout Generator is a web application that generates random workouts based on user input.', id:"projects-card-button1", date:" Made in 2023", github:"https://github.com/charliegale16/Workout-Generator",live:"https://workout-generator-charliegale.netlify.app"},
-    {name:"Space Invaders", icon: spaceinvaders, desc:'Python-based Space Invaders made with custom sprites, creating an immersive gaming experience', id:"projects-card-button2", date:" Made in 2022", github:"https://github.com/charliegale16/Space_Invaders_CPSC",live:""},
-    {name:"CloudMap", icon: cloudmap, desc:'A web application that displays a google maps page with custom filters provided by the user.', id:"projects-card-button3", date:" Made in 2022", github:"https://github.com/charliegale16/CloudMap",live:"https://workout-generator-charliegale.netlify.app"}
+    {name:"Workout Generator", icon: workout, desc:'Workout Generator is a web application that generates random workouts based on user input.', id:"projects-card-button1", date:" Made in 2023", github:"https://github.com/charliegale16/Workout-Generator",live:"https://workout-generator-charliegale.netlify.app",class:1},
+    {name:"Space Invaders", icon: spaceinvaders, desc:'Python-based Space Invaders made with custom sprites, creating an immersive gaming experience', id:"projects-card-button2", date:" Made in 2022", github:"https://github.com/charliegale16/Space_Invaders_CPSC",live:"",class:2},
+    {name:"CloudMap", icon: cloudmap, desc:'A web application that displays a google maps page with custom filters provided by the user.', id:"projects-card-button3", date:" Made in 2022", github:"https://github.com/charliegale16/CloudMap",live:"https://workout-generator-charliegale.netlify.app",class:3}
 
 
   ]
@@ -23,7 +23,7 @@ const ProjectSection = () => {
             </div>
             <div className='projects-card-container'>
                 {projectsItems.map((item) => (
-                <div className='projects-card'>
+                <div className='projects-card' key={item.class}>
                     <div className='projects-card-left'>
                         <h2>{item.name}</h2>
                         <i>{item.date}</i>

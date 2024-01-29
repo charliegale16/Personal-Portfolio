@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import "./Nav.css";
 import { Link } from 'react-router-dom';
 import house from '../assets/icons8-home-50.png';
@@ -64,7 +63,7 @@ const mainNavItems = [
             </div>
             
           ))}
-                    <button className="theme-toggle" onClick={toggleTheme}>
+                    <picture className="theme-toggle" onClick={toggleTheme}>
                     {theme === 'light' ? (
         <>
           <img src={sun} alt="Sun" className="mr-2" />
@@ -74,7 +73,7 @@ const mainNavItems = [
           <img src={moon} alt="Moon" className="mr-2" />
         </>
       )}
-          </button>
+          </picture>
           </div>
           </nav>
         </div>

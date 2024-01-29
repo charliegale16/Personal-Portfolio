@@ -19,9 +19,7 @@
     gap: 20px;
   }
   
-  button.theme-toggle{
-    margin-right: 0px;
-  }
+ 
 
 button{
     gap: 0.25rem;
@@ -66,13 +64,7 @@ button{
       margin-right: 5px;
     }
   }
-  .nav-items .theme-toggle {
-    border-radius: 50%;
-    padding: 0;
-    width: 40px; /* Set the width and height to make the button square */
-    height: 40px;
-    cursor: pointer; /* Add a cursor to indicate the button is clickable */
-  }
+
 
   .nav-items .theme-toggle img{
     min-width: 38px;
@@ -81,6 +73,8 @@ button{
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     margin-top: -3px;
+    cursor: pointer;
+  
 
   }
   .nav-items img{
@@ -90,3 +84,4 @@ button{
     margin-right: 0.25rem;
     margin-bottom: -3.5px;
   }
+
