@@ -4,6 +4,10 @@ body {
     background: var(--background-color);
     text-align: center;
   }
+
+html{
+  
+}
   
 :root{
     --background-color: #fcfeff;

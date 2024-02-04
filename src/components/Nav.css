@@ -1,87 +1,94 @@
-
-
 .navigation {
-    max-width: 700px;
-    margin: 0 auto;
-    position: flex;
-    margin-top: 20px;
-    z-index: 3; 
-    
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+  z-index: 3;
 }
-  
+
+.nav-items,
+.nav-items2 {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-direction: row;
+  gap: 20px;
+}
+
+button.theme-toggle {
+  margin-right: 0px;
+}
+
+button {
+  gap: 0.25rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-buttons);
+  padding: 0.3rem 0.35rem;
+  border-radius: 10px;
+  border: 1px solid var(--button-border);
+  transition: transform 0.2s ease-in-out;
+  background-color: var(--button-background);
+  white-space: nowrap;
+  padding: 8px 12px;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+  border-color: var(--button-border-hover);
+  color: var(--text-primary);
+}
+
+.nav-items img {
+  min-height: 20px;
+  min-width: 20px;
+  max-height: 20px;
+  margin-right: 0.25rem;
+  margin-bottom: -3.5px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 728px) {
+  .navigation {
+      max-width: 100%; /* Adjust the max-width to fit the screen */
+      padding: 0 20px; /* Add padding to the sides for better spacing */
+  }
+
   .nav-items,
   .nav-items2 {
-    align-items: center;
-    display: flex; /* Use flexbox to display items in a row */
-    list-style: none; /* Remove default list styles */
-    padding: 0; /* Remove default padding */
-    flex-direction: row;
-    gap: 20px;
-  }
-  
- 
-
-button{
-    gap: 0.25rem;
-    cursor: pointer;
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: var(--text-buttons);
-    padding: 0.3rem 0.35rem;
-    border-radius: 10px;
-    border: 1px solid var(--button-border);
-    transition: transform 0.2s ease-in-out;
-    background-color: var(--button-background);
-    white-space: nowrap;
-    padding: 8px 12px;
+      flex-direction: column; /* Change to a column layout for mobile */
+      gap: 10px; /* Reduce the gap between items for better spacing */
+      align-items: center; /* Center items horizontally */
   }
 
- button:hover{
-    background-color: var(--button-hover);
-    border-color: var(--button-border-hover);
-    color: var(--text-primary);
+  .nav-item-left,
+  .nav-item-right {
+      margin-right: 0; /* Reset margin for mobile layout */
+      margin-left: 0; /* Reset margin for mobile layout */
   }
 
-
-  /* Media query for mobile devices */
-@media (max-width: 728px) {
-
-    .nav-items,
-    .nav-items2 {
-        display: flex;
-      flex-direction: row; /* Change to a column layout for mobile */
-      justify-content: center;
-
-    }
-  
-    .nav-item-left,
-    .nav-item-right {
-      margin-right: 6px;
-    }
-  
-    .nav-item-right {
-      margin-left: 0; /* Reset margin for right items */
-      margin-right: 5px;
-    }
+  .nav-items .theme-toggle {
+      width: 60px; /* Increase the width and height to make the button larger */
+      height: 60px;
+      font-size: 1.5rem; /* Increase the font size */
   }
 
-
-  .nav-items .theme-toggle img{
-    min-width: 38px;
-    min-height: 38px;
-    display: flex; /* Use flexbox for centering */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    margin-top: -3px;
-    cursor: pointer;
-  
-
-  }
-  .nav-items img{
-    min-height: 20px;
-    min-width: 20px;
-    max-height: 20px;
-    margin-right: 0.25rem;
-    margin-bottom: -3.5px;
+  .nav-items .theme-toggle img {
+      min-width: 48px; /* Increase the minimum width and height of the image */
+      min-height: 48px;
   }
 
+  .nav-items img {
+      min-height: 24px; /* Increase the minimum height of the image */
+      min-width: 24px;
+      max-height: 24px;
+      margin-right: 0.5rem; /* Increase the margin for better spacing */
+      margin-bottom: -4px; /* Adjust the margin for better alignment */
+  }
+
+  button {
+      font-size: 1.2rem; /* Increase the font size of other buttons */
+      padding: 10px 16px; /* Increase the padding for better touch targets */
+  }
+}
