@@ -106,10 +106,11 @@ p{
     width: 100vw;
     margin-top: 100px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 .hero-left {
     border-radius: 100%;
-    max-width: 270px;
+    max-width: 280px;
     overflow: hidden;
     margin-right: 20px;
 
@@ -126,7 +127,7 @@ p{
     position: flex;
     width: 100%;
     font-size: 21px;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: -15px;  }
 
   .hero-right h1{
@@ -146,8 +147,8 @@ p{
   }
 
   .hero-right-3-under button{
-    padding: 0.5rem 0.6rem;
-    font-size: 1rem;
+    padding: 10px 8px;
+    font-size: 1.1rem;
     margin-right: 10px;
     font-weight: 500
   }
