@@ -54,7 +54,7 @@ button:hover {
 }
 
 /* Media query for mobile devices */
-@media (max-width: 728px) {
+@media (max-width: 450px) {
   .navigation {
       max-width: 100vw; /* Adjust the max-width to fit the screen */
        /* Add padding to the sides for better spacing */

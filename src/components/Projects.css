@@ -130,7 +130,7 @@ i {
 }
 
 
-@media (max-width:430px){
+@media (max-width:450px){
     .projects-container{
         display: flex;
         flex-direction: column;
