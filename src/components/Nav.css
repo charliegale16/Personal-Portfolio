@@ -15,7 +15,7 @@
   gap: 20px;
 }
 
-button .theme-toggle {
+button.theme-toggle {
   margin-right: 0px;
 }
 
@@ -32,10 +32,6 @@ button {
   background-color: var(--button-background);
   white-space: nowrap;
   padding: 8px 12px;
-}
-.nav-items .theme-toggle img {
-  min-width: 40px; /* Increase the minimum width and height of the image */
-  min-height: 40px;
 }
 
 button:hover {
@@ -59,8 +55,8 @@ button:hover {
        /* Add padding to the sides for better spacing */
        position: fixed;
        top: -10px;
-       padding-right: 5px;
-       padding-left: 5px;
+       padding-right: 10px;
+       padding-left: 10px;
   }
 
   .nav-items,
@@ -98,6 +94,6 @@ button:hover {
 
   button {
       font-size: 1.2rem; /* Increase the font size of other buttons */
-      padding: 10px 16px; /* Increase the padding for better touch targets */
+      padding: 10px 12px; /* Increase the padding for better touch targets */
   }
 }

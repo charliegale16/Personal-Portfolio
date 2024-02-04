@@ -5,10 +5,10 @@ body {
     text-align: center;
   }
 
-html{
-  
-}
-  
+  html{
+    width: 100%;
+    
+  }
 :root{
     --background-color: #fcfeff;
     --button-border:#e6e6e6;
