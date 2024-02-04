@@ -48,6 +48,11 @@ button:hover {
   margin-bottom: -3.5px;
 }
 
+.nav-items .theme-toggle img {
+  min-width: 48px; /* Increase the minimum width and height of the image */
+  min-height: 48px;
+}
+
 /* Media query for mobile devices */
 @media (max-width: 728px) {
   .navigation {
