@@ -15,7 +15,7 @@
   gap: 20px;
 }
 
-button.theme-toggle {
+button .theme-toggle {
   margin-right: 0px;
 }
 
@@ -32,6 +32,10 @@ button {
   background-color: var(--button-background);
   white-space: nowrap;
   padding: 8px 12px;
+}
+.nav-items .theme-toggle img {
+  min-width: 40px; /* Increase the minimum width and height of the image */
+  min-height: 40px;
 }
 
 button:hover {
@@ -51,13 +55,17 @@ button:hover {
 /* Media query for mobile devices */
 @media (max-width: 728px) {
   .navigation {
-      max-width: 100%; /* Adjust the max-width to fit the screen */
-      padding: 0 20px; /* Add padding to the sides for better spacing */
+      max-width: 100vw; /* Adjust the max-width to fit the screen */
+       /* Add padding to the sides for better spacing */
+       position: fixed;
+       top: -10px;
+       padding-right: 5px;
+       padding-left: 5px;
   }
 
   .nav-items,
   .nav-items2 {
-      flex-direction: column; /* Change to a column layout for mobile */
+      flex-direction: row; /* Change to a column layout for mobile */
       gap: 10px; /* Reduce the gap between items for better spacing */
       align-items: center; /* Center items horizontally */
   }
@@ -77,6 +85,7 @@ button:hover {
   .nav-items .theme-toggle img {
       min-width: 48px; /* Increase the minimum width and height of the image */
       min-height: 48px;
+      margin-top: 5px;
   }
 
   .nav-items img {
