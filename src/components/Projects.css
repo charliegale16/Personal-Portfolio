@@ -15,14 +15,14 @@
 .projects-header{
 
     display: flex;
-    flex:1;
+    align-items: center;
+    gap: 470px;
 
 }
 
 .projects-header button{
-    align-self: center;
     height: 40px;
-   float: right;
+    margin-right: 40px;
 }
 
 .projects-card {
@@ -170,8 +170,16 @@ i {
         margin-left: 20px;
     }
     .projects-header button{
-        align-self: center;
         height: 40px;
+        margin-left: 30px;
+    }
+    .projects-header{
+        display: flex;
+        align-items: center;
+        gap: 400px;
+    }
+    .projects-header-right{
+        display: flex;
         
     }
 }

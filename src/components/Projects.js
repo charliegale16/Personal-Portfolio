@@ -21,10 +21,14 @@ const Projects = () => {
     <section id='projects'>
         <div className='projects-container'>
             <div className='projects-header'>
+            <div className='projects-header-left'>
                 <h1>Projects</h1>
+                </div>
+                <div className='projects-header-right'>
                 <Link to='/projects'>
                 <button>View All</button>
                 </Link>
+                </div>
                 
             </div>
             <div className='projects-description'>
