@@ -109,7 +109,7 @@ i {
     height: 209.98px;
     border-radius: 15px;
     margin-top: 5px;
-    margin-left: 15px;
+    gap: 15px;
 }
 
 .projects-card:hover{
@@ -138,7 +138,15 @@ i {
         margin: 0 auto;
         margin-top: 80px;
         margin-left: 10px;
+        width: 100vw;
         
+    }
+    .projects-card-container {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 600px;
+    
     }
     
     .projects-header h1{

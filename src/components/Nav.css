@@ -3,6 +3,7 @@
   margin: 0 auto;
   margin-top: 20px;
   z-index: 3;
+  align-items: center;
 }
 
 .nav-items,
@@ -62,13 +63,16 @@ button:hover {
        position: fixed;
        top: -10px;
        padding-left: 15px;
+       align-items: center;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
 
   }
 
   .nav-items,
   .nav-items2 {
-      flex-direction: row; /* Change to a column layout for mobile */
-      gap: 10px; /* Reduce the gap between items for better spacing */
+      flex-direction: row; /* Change to a column layout for mobile *//* Reduce the gap between items for better spacing */
       align-items: center; /* Center items horizontally */
   }
 
@@ -99,7 +103,7 @@ button:hover {
   }
 
   .nav-items button {
-      font-size: 1.1rem; /* Increase the font size of other buttons */
+      font-size: 1.2rem; /* Increase the font size of other buttons */
       padding: 12px 6px; /* Increase the padding for better touch targets */
   }
 }
