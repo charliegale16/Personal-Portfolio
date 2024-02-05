@@ -51,17 +51,18 @@ button:hover {
 .nav-items .theme-toggle img {
   min-width: 48px; /* Increase the minimum width and height of the image */
   min-height: 48px;
+
 }
 
 /* Media query for mobile devices */
-@media (max-width: 450px) {
-  .navigation {
-      max-width: 100vw; /* Adjust the max-width to fit the screen */
+@media (max-width: 728px) {
+  .navigation {/* Adjust the max-width to fit the screen */
        /* Add padding to the sides for better spacing */
+       width: 100vw;
        position: fixed;
        top: -10px;
-       padding-right: 15px;
        padding-left: 15px;
+
   }
 
   .nav-items,
@@ -98,7 +99,7 @@ button:hover {
   }
 
   .nav-items button {
-      font-size: 1.2rem; /* Increase the font size of other buttons */
-      padding: 12px 10px; /* Increase the padding for better touch targets */
+      font-size: 1.1rem; /* Increase the font size of other buttons */
+      padding: 12px 6px; /* Increase the padding for better touch targets */
   }
 }
