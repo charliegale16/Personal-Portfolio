@@ -24,8 +24,8 @@ The website is deployed and accessible at your-netlify-link.
 * Install dependencies: npm install
 * Run the development server: npm start
   
-### Contributing
-* Contributions are welcome! Feel free to open an issue or submit a pull request.
+## Contributing
+ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
