@@ -1,10 +1,13 @@
 # Personal Portfolio
 
 
-### This is my personal portfolio website built using ReactJS, JavaScript, HTML, and CSS. It showcases my projects, skills, and experience. The site is live and hosted on Netlify.
+ This is my personal portfolio website built using ReactJS, JavaScript, HTML, and CSS. It showcases my projects, skills, and experience. The site is live and hosted on Netlify.
 
 ## Link
-(https://i.imgur.com/AqRsPuv.png)
+https://charliegale.netlify.app
+
+-Screenshot
+![Portfolio](https://i.imgur.com/AqRsPuv.png)
 
 ## Features
 * Responsive design for mobile and desktop
