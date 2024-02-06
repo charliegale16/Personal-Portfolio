@@ -5,6 +5,7 @@
     max-width: 700px;
     margin: 0 auto;
     margin-top: 80px;
+    
 }
 
 .projects-header h1{
@@ -16,13 +17,15 @@
 
     display: flex;
     align-items: center;
-    gap: 470px;
+    max-width: 700px;
+    width: 100vw;
+    justify-content: space-between;
 
 }
 
 .projects-header button{
     height: 40px;
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 .projects-card {
@@ -30,26 +33,28 @@
     position: relative;
     flex-direction: row;
     display: flex;
-    width: 700px;
+    width: 95vw;
     margin-right: 30px;
     text-align: left;
     border-radius: 15px;
     border: 2px solid var(--project-border);
     max-width: 700px;
     margin-top: 20px;
+    height: auto;
+    justify-content: space-between
     
     
 }
 .projects-card-left{
-    margin-left:15px;
-    width: 350px;
+    margin-left: 15px;
+    width: 50%;
+    margin-right: 10px;
 }
 .projects-card-left button{
     background-color:rgb(233, 230, 230);
+    margin-bottom: 10px;
 }
-.projects-card-right{
-    width: 350px;
-}
+
 i {
     word-spacing: 2px;
     font-family: Inter;
@@ -70,7 +75,8 @@ i {
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 700px;
+    max-width: 700px;
+    width: 100vw;
 
 }
 
@@ -106,9 +112,8 @@ i {
 
 .projects-card img{
     width: 320px;
-    height: 209.98px;
+    height: 100%;
     border-radius: 15px;
-    margin-top: 5px;
     gap: 15px;
 }
 
@@ -135,51 +140,14 @@ i {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        max-width: 700px;
         margin: 0 auto;
         margin-top: 80px;
-        margin-left: 10px;
-        width: 100vw;
-        
+        padding-left: 12.5px;
     }
-    .projects-card-container {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        width: 600px;
-    
-    }
-    
-    .projects-header h1{
-        font-size: 2.5rem;
-        margin-left: 20px;
-    
-    }
-    .projects-description p{
-        font-weight: 500;
-        letter-spacing: -.01rem;
-        word-spacing: 2px;
-        font-family: Inter;
-        line-height: 1.1;
-        font-size: 1.5rem;
-        text-align: left;
-        margin-top: 20px;
-        margin: 0;
-        margin-bottom: 30px;
-    }
-    .projects-description{
-        margin-left: 20px;
-    }
+
     .projects-header button{
         height: 40px;
-        margin-left: 30px;
-    }
-    .projects-header{
-        display: flex;
-        align-items: center;
-        gap: 400px;
-    }
-    .projects-header-right{
-        display: flex;
-        
+       margin-right: 20px;
     }
 }

@@ -15,7 +15,6 @@
   list-style: none;
   padding: 0;
   flex-direction: row;
-  justify-content: center;
   justify-content: space-between;
 }
 
@@ -65,11 +64,7 @@ button:hover {
        width: 100vw;
        position: fixed;
        top: -10px;
-       padding-left: 0.1rem;
-       align-items: center;
-       display: flex;
-       justify-content: space-evenly;
-       align-items: center;
+
 
   }
 
@@ -77,14 +72,10 @@ button:hover {
   .nav-items2 {
       flex-direction: row; /* Change to a column layout for mobile *//* Reduce the gap between items for better spacing */
       align-items: center; /* Center items horizontally */
-      gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
   }
 
-  .nav-item-left,
-  .nav-item-right {
-      margin-right: 0; /* Reset margin for mobile layout */
-      margin-left: 0; /* Reset margin for mobile layout */
-  }
 
   .nav-items .theme-toggle {
       width: 60px; /* Increase the width and height to make the button larger */
@@ -108,6 +99,6 @@ button:hover {
 
   .nav-items button {
       font-size: 1.2rem; /* Increase the font size of other buttons */
-      padding: 12px 6px; /* Increase the padding for better touch targets */
+      padding: 12px 8px; /* Increase the padding for better touch targets */
   }
 }
