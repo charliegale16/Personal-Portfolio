@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: flex-start;
     max-width: 700px;
+    width: 100vw;
     margin: 0 auto;
     margin-top: 80px;
     
@@ -20,6 +21,7 @@
     font-size: 1.25rem;
     text-align: left;
     margin-top: 10px;
+    max-width: 95vw;
 }
 
 .header-sub-1 {
@@ -40,13 +42,17 @@
     margin-top: 10px;
     display: flex;
     margin-bottom: 30px;
+    justify-content: space-evenly;
+    width: 95vw;
+    max-width: 700px;
+    
 }
 
 .header-sub-icons img,
 .header-sub-icons2 img,
 .header-sub-icons3 img
 {
-    margin-right: 45px;
+    gap:45px
     
 
     
@@ -75,7 +81,7 @@ transform: scale(1.2);
         flex-direction: column;
         align-items: flex-start;
         margin: 0 auto;
-        width: 100%;
+        width: 100vw;
         margin-top: 80px;
         margin-left: 20px;
         

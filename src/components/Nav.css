@@ -1,9 +1,11 @@
 .navigation {
-  max-width: 700px;
+  width: 100vw;
   margin: 0 auto;
   margin-top: 20px;
   z-index: 3;
   align-items: center;
+  max-width: 700px;
+  
 }
 
 .nav-items,
@@ -13,7 +15,8 @@
   list-style: none;
   padding: 0;
   flex-direction: row;
-  gap: 20px;
+  justify-content: center;
+  justify-content: space-between;
 }
 
 button.theme-toggle {
@@ -62,7 +65,7 @@ button:hover {
        width: 100vw;
        position: fixed;
        top: -10px;
-       padding-left: 15px;
+       padding-left: 0.1rem;
        align-items: center;
        display: flex;
        justify-content: space-evenly;
