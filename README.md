@@ -4,7 +4,7 @@
 ### This is my personal portfolio website built using ReactJS, JavaScript, HTML, and CSS. It showcases my projects, skills, and experience. The site is live and hosted on Netlify.
 
 ## Features
-Responsive design for mobile and desktop
+* Responsive design for mobile and desktop
 Projects section to showcase my work
 Skills section highlighting my expertise
 Contact form for inquiries
