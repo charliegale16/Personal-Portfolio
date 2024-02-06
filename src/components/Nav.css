@@ -54,6 +54,7 @@ button:hover {
 .nav-items .theme-toggle img {
   min-width: 48px; /* Increase the minimum width and height of the image */
   min-height: 48px;
+  cursor: pointer;
 
 }
 
