@@ -15,7 +15,7 @@
 * Netlify (for hosting)
   
 ## Deployment
-The website is deployed and accessible @ [your-netlify-link.](https://charliegale.netlify.app/)
+The website is deployed and accessible @ [charliegale.netlify.app](https://charliegale.netlify.app/)
 
 ## Getting Started
 ### To run this project locally, follow these steps:
