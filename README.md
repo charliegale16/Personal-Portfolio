@@ -29,9 +29,6 @@ The website is deployed using Netlify and accessible @ [charliegale.netlify.app]
 * Clone the repository: git clone https://github.com/yourusername/personal-portfolio.git
 * Install dependencies: npm install
 * Run the development server: npm start
-  
-## Contributing
- Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
