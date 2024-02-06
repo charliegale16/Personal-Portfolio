@@ -3,12 +3,10 @@ body {
     padding: 0;
     background: var(--background-color);
     text-align: center;
+      overflow-x: hidden;
+  
   }
 
-  html{
-    width: 100%;
-    
-  }
 :root{
     --background-color: #fcfeff;
     --button-border:#e6e6e6;

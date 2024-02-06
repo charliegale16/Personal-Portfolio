@@ -176,7 +176,7 @@ i {
     .projects-header{
         display: flex;
         align-items: center;
-        gap: 350px;
+        gap: 400px;
     }
     .projects-header-right{
         display: flex;
