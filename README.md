@@ -6,7 +6,7 @@
 ## Link
 https://charliegale.netlify.app
 
--Screenshot
+* Screenshot of the home page
 ![Portfolio](https://i.imgur.com/AqRsPuv.png)
 
 ## Features
@@ -21,7 +21,7 @@ https://charliegale.netlify.app
 * Netlify (for hosting)
   
 ## Deployment
-The website is deployed and accessible @ [charliegale.netlify.app](https://charliegale.netlify.app/)
+The website is deployed using Netlify and accessible @ [charliegale.netlify.app](https://charliegale.netlify.app/)
 
 ## Getting Started
 ### To run this project locally, follow these steps:
