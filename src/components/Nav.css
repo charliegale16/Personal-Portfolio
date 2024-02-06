@@ -74,6 +74,7 @@ button:hover {
   .nav-items2 {
       flex-direction: row; /* Change to a column layout for mobile *//* Reduce the gap between items for better spacing */
       align-items: center; /* Center items horizontally */
+      gap: 10px;
   }
 
   .nav-item-left,
