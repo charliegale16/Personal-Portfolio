@@ -35,3 +35,6 @@ The website is deployed using Netlify and accessible @ [charliegale.netlify.app]
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+If you have any questions or suggestions, feel free to contact the project maintainer at [charliegale16@gmail.com](mailto:charliegale16@gmail.com).
