@@ -7,22 +7,25 @@
 * Responsive design for mobile and desktop
 * Projects section to showcase my work
 * Skills section highlighting my expertise
-Technologies Used
-ReactJS
-JavaScript
-HTML/CSS
-Netlify (for hosting)
-Deployment
+  
+## Technologies Used
+* ReactJs
+* JavaScript
+* HTML/CSS
+* Netlify (for hosting)
+  
+## Deployment
 The website is deployed and accessible at your-netlify-link.
 
-Getting Started
-To run this project locally, follow these steps:
+## Getting Started
+### To run this project locally, follow these steps:
 
-Clone the repository: git clone https://github.com/yourusername/personal-portfolio.git
-Install dependencies: npm install
-Run the development server: npm start
-Contributing
-Contributions are welcome! Feel free to open an issue or submit a pull request.
+* Clone the repository: git clone https://github.com/yourusername/personal-portfolio.git
+* Install dependencies: npm install
+* Run the development server: npm start
+  
+### Contributing
+* Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
