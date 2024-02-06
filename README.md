@@ -5,9 +5,8 @@
 
 ## Features
 * Responsive design for mobile and desktop
-Projects section to showcase my work
-Skills section highlighting my expertise
-Contact form for inquiries
+* Projects section to showcase my work
+* Skills section highlighting my expertise
 Technologies Used
 ReactJS
 JavaScript
